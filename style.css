@@ -1,0 +1,61 @@
+/*element {
+	property: value;
+}*/
+
+/*universal selector*/
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+h1, h2 {
+	font-family:  'Montserrat', sans-serif;
+	color: #00678c;
+	font-weight: bolder;
+}
+
+#landing {
+	margin-top: 12.5vh;
+	height: 87.5vh;
+	display:  flex;
+	flex-direction:  column;
+	justify-content: center;
+	align-items: center;
+	background-color: transparent;
+}
+
+img {
+	height: 250px;
+	width: 250px;
+	border-radius: 150px;
+}
+
+#gallery {
+	padding: 5vh 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border-radius: 6px;
+}
+
+ul  {
+	list-style: none;
+	padding: 0;
+}
+
+.tools {
+	border:  5px solid #00678c;
+	border-radius: 8px;
+	width: 75%;
+	margin: 10px;
+	padding: 25px;
+	color: white;
+}
+
+h2 {
+	color: #00678c;
+}
+
+html {
+	scroll-behavior: smooth;
+}
